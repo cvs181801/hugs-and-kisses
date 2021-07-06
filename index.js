@@ -1,10 +1,8 @@
 
+array1 = [x,x,x,o,o,o];
 
-
-function checkHugsAndKisses(letters) {
-   letters.toLowerCase();
-   const xArray = letters.filter(letter, x);
-   const oArray = letters.filter(letter, o);  
+function checkKisses(letters) {
+   return letters === x;
 }
 
-console.log(checkHugsAndKisses([x,x,x,o,o,o]));
+console.log(array1.filter(checkKisses));
