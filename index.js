@@ -11,8 +11,22 @@ function randomXandO() {
    }
 }
 
-//console.log(randomXandO());
-console.log(array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()]);
+array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
+
+let num = 0;
+
+array1.forEach((currentValue) => {
+if (currentValue === "X") {
+   num++;
+} else {
+   console.log(num);
+   //return num;
+}
+console.log(num);
+//return num;
+});
+
+console.log(num);
 
 // function checkKisses(letter) {
 //    return letter = x;
