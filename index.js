@@ -12,7 +12,7 @@ function randomXandO() {
       result.append(kissnHug);
       //return "X";
    } else {
-      issnHug.innerHTML = "O";
+      kissnHug.innerHTML = "O";
       result.append(kissnHug);
       //return "O";
    }
