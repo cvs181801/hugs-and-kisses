@@ -13,6 +13,8 @@ function randomXandO() {
 
 array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
 
+console.log(array1);
+
 function countXsandOs() {
 let exes = 0;
 let ohs = 0;
