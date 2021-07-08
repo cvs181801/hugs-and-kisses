@@ -28,7 +28,13 @@ if (currentValue === "X") {
 });
 // console.log(exes);
 // console.log(ohs);
-return `X's: ${exes}, O's: ${ohs}`;
+if (exes === ohs) {
+   console.log("equal!");
+   //return `There is an equal amount of X's and O's!`
+} else {
+   console.log("not equal");
+   //return `X's: ${exes}, O's: ${ohs}`;
+}
 }
 
 console.log(countXsandOs());
