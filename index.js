@@ -21,15 +21,14 @@ let ohs = 0;
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
-   exes++;
-   
+   exes++; 
 } else {
-   ohs++;
-   
+   ohs++; 
 }
 });
-console.log(exes);
-console.log(ohs);
+// console.log(exes);
+// console.log(ohs);
+return `X's: ${exes}, O's: ${ohs}`;
 }
 
 console.log(countXsandOs());
