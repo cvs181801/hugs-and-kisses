@@ -5,9 +5,9 @@
 
 function randomXandO() {
    if (Math.random() > .5 ) {
-      console.log("X");
+         "X";
    } else {
-      console.log("O");
+      return "O";
    }
 }
 
