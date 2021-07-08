@@ -5,7 +5,7 @@
 
 function randomXandO() {
    if (Math.random() > .5 ) {
-         "X";
+      return "X";
    } else {
       return "O";
    }
