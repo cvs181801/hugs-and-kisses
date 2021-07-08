@@ -4,7 +4,11 @@
 //create a way to randomly generate x's and o's 
 
 function randomXandO() {
-   return Math.random();
+   if (Math.random() > .5 ) {
+      console.log("X");
+   } else {
+      console.log("O");
+   }
 }
 
 console.log(randomXandO());
