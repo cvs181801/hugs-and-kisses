@@ -1,13 +1,20 @@
+//grab elements off the DOM
 
-
+const generateButton = document.getElementById("generateBtn");
+const result = document.getElementById("resultDiv");
+const kissnHug = document.createElement("p");
 
 //create a way to randomly generate a set of 6 x's and o's.
 
 function randomXandO() {
    if (Math.random() > .5 ) {
-      return "X";
+      kissnHug.innerHTML = "X";
+      result.append(kissnHug);
+      //return "X";
    } else {
-      return "O";
+      issnHug.innerHTML = "O";
+      result.append(kissnHug);
+      //return "O";
    }
 }
 
@@ -41,5 +48,12 @@ if (exes === ohs) {
 }
 
 console.log(countXsandOs());
+
+//make it so when the user clicks the button, a set of 6 X's and O's are automatically generated, rendered to the page, and counted.
+
+generateButton.addEventListener('click', function(e) {
+   e.preventDefault();
+   return randomXandO();
+})
 
 
