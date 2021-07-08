@@ -11,7 +11,7 @@ function randomXandO() {
    }
 }
 
-array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
+console.log(array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()]);
 
 let num = 0;
 
