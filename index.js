@@ -4,7 +4,7 @@
 //create a way to randomly generate x's and o's 
 
 function randomXandO() {
-   return Math.floor(Math.random())
+   return Math.random();
 }
 
 console.log(randomXandO());
