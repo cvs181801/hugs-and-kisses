@@ -13,20 +13,20 @@ function randomXandO() {
 
 console.log(array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()]);
 
-let num = 0;
+let exes = 0;
+let ohs = 0;
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
-   num++;
+   exes++;
+   console.log(exes);
 } else {
-   console.log(num);
-   //return num;
+   ohs++;
+   console.log(ohs);
 }
-console.log(num);
-//return num;
 });
 
-console.log(num);
+
 
 // function checkKisses(letter) {
 //    return letter = x;
