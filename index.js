@@ -1,7 +1,7 @@
 
 
 
-//create a way to randomly generate x's and o's 
+//create a way to randomly generate a set of 6 x's and o's.
 
 function randomXandO() {
    if (Math.random() > .5 ) {
@@ -14,6 +14,8 @@ function randomXandO() {
 array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
 
 console.log(array1);
+
+//create a way to count up and compare the x's and o's in the set.  Is there an equal amount of each or not?
 
 function countXsandOs() {
 let exes = 0;
@@ -29,17 +31,15 @@ if (currentValue === "X") {
 // console.log(exes);
 // console.log(ohs);
 if (exes === ohs) {
-   console.log("equal!");
-   //return `There is an equal amount of X's and O's!`
+   //console.log("equal!");
+   return `There is an equal amount of X's and O's!`
 } else {
-   console.log("not equal");
-   //return `X's: ${exes}, O's: ${ohs}`;
+   //console.log("not equal");
+   return `There is not an equal amount of X's and O's.
+   X's: ${exes}, O's: ${ohs}`;
 }
 }
 
 console.log(countXsandOs());
-// function checkKisses(letter) {
-//    return letter = x;
-// }
 
-//console.log(array1.filter(checkKisses(letter)));
+
