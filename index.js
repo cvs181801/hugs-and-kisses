@@ -29,7 +29,7 @@ if (currentValue === "X") {
 }
 console.log(exes);
 console.log(ohs);
-console.log(ountXsandOs());
+console.log(countXsandOs());
 // function checkKisses(letter) {
 //    return letter = x;
 // }
