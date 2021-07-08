@@ -12,7 +12,7 @@ function randomXandO() {
 }
 
 //console.log(randomXandO());
-array1 = [randomXandO()];
+console.log(array1 = [randomXandO()]);
 
 // function checkKisses(letter) {
 //    return letter = x;
