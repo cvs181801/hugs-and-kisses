@@ -79,8 +79,14 @@ function clearArray(array) {
 
 generateButton.addEventListener('click', function(e) {
    e.preventDefault();
-   console.log("it worked!");
+   console.log("generate btn worked!");
    return randomXandO(), countXsandOs();
+})
+
+clearButton.addEventListener('click', function(e) {
+   e.preventDefault();
+   console.log("clear btn worked!");
+   return clearArray(array1);
 })
 
 
