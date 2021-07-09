@@ -34,6 +34,7 @@ result.innerHTML = "";
 result1.innerHTML = "";
 result2.innerHTML = "";
 
+
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
    kissnHug = document.createElement("p");
@@ -50,13 +51,10 @@ if (currentValue === "X") {
 // console.log(exes);
 // console.log(ohs);
 if (exes === ohs) {
-   
    finalCount.innerHTML = `There is an equal amount of Hugs and Kisses!`;
-
 } else {
-   
-   finalCount.innerHTML = `There is not an equal amount of Hugs and Kisses.  X's: ${exes}, O's: ${ohs}`;
-   
+   finalCount.innerHTML = `There is not an equal amount of Hugs and Kisses.  X's: ${exes}, O's: ${ohs}`; 
+   }
 }
 
 //create a way to clear the previous values.
