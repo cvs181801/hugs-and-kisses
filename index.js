@@ -56,7 +56,7 @@ if (exes === ohs) {
 }
 }
 
-console.log(countXsandOs());
+//console.log(countXsandOs());
 
 //make it so when the user clicks the button, a set of 6 X's and O's are automatically generated, rendered to the page, and counted.
 
