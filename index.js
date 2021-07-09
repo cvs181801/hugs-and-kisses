@@ -28,7 +28,7 @@ console.log(array1);
 function countXsandOs() {
 let exes = 0;
 let ohs = 0;
-result.innerHTML = "";
+//result.innerHTML = "";
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
