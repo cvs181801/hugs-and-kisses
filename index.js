@@ -8,12 +8,12 @@ const kissnHug = document.createElement("p");
 
 function randomXandO() {
    if (Math.random() > .5 ) {
-      kissnHug.innerHTML = "X";
-      result.append(kissnHug);
+      // kissnHug.innerHTML = "X";
+      // result.append(kissnHug);
       return "X";
    } else {
-      kissnHug.innerHTML = "O";
-      result.append(kissnHug);
+      // kissnHug.innerHTML = "O";
+      // result.append(kissnHug);
       return "O";
    }
 }
@@ -30,8 +30,12 @@ let ohs = 0;
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
+   kissnHug.innerHTML = "X";
+   result.append(kissnHug);
    exes++; 
 } else {
+   kissnHug.innerHTML = "O";
+   result.append(kissnHug);
    ohs++; 
 }
 });
