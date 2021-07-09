@@ -22,7 +22,7 @@ array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),
 
 console.log(array1);
 
-//create a way to count up and compare the x's and o's in the set.  Is there an equal amount of each or not?
+//create a way to count up and compare the x's and o's in the set.  Is there an equal amount of each, or not?
 
 function countXsandOs() {
 let exes = 0;
@@ -31,11 +31,11 @@ let ohs = 0;
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
    kissnHug.innerHTML = "X";
-   result.append(kissnHug);
+   result.appendChild(kissnHug);
    exes++; 
 } else {
    kissnHug.innerHTML = "O";
-   result.append(kissnHug);
+   result.appendChild(kissnHug);
    ohs++; 
 }
 });
