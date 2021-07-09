@@ -3,6 +3,7 @@
 const generateButton = document.getElementById("generateBtn");
 const result = document.getElementById("resultDiv");
 let kissnHug = document.createElement("p");
+const finalCount = document.getElementById("countDiv");
 
 //create a way to randomly generate a set of 6 x's and o's.
 
@@ -45,11 +46,13 @@ if (currentValue === "X") {
 // console.log(ohs);
 if (exes === ohs) {
    //console.log("equal!");
-   return `There is an equal amount of X's and O's!`
+   finalCount.innerHTML = `There is an equal amount of X's and O's!`;
+   //return `There is an equal amount of X's and O's!`
 } else {
    //console.log("not equal");
-   return `There is not an equal amount of X's and O's.
-   X's: ${exes}, O's: ${ohs}`;
+   finalCount.innerHTML = `There is not an equal amount of X's and O's.  X's: ${exes}, O's: ${ohs}`;
+   //return `There is not an equal amount of X's and O's.
+   //X's: ${exes}, O's: ${ohs}`;
 }
 }
 
