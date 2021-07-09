@@ -11,7 +11,7 @@ const clearButton = document.getElementById("clearBtn");
 let array1 = [];
 
 function randomXandO() {
-   array1 = [];
+   
    if (Math.random() > .5 ) {
       // kissnHug.innerHTML = "X";
       // result.append(kissnHug);
@@ -21,6 +21,7 @@ function randomXandO() {
       // result.append(kissnHug);
       return "O";
    }
+   
 }
 
 array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
@@ -68,6 +69,7 @@ if (exes === ohs) {
 //create a way to clear the previous values.
 
 function clearArray(array) {
+   array1 = [];
    clearButton.classList.toggle("hidden");
    generateButton.classList.toggle("hidden");
  
