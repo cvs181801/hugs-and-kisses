@@ -50,12 +50,12 @@ if (currentValue === "X") {
 // console.log(ohs);
 if (exes === ohs) {
    //console.log("equal!");
-   finalCount.innerHTML = "";
+   
    finalCount.innerHTML = `There is an equal amount of X's and O's!`;
    //return `There is an equal amount of X's and O's!`
 } else {
    //console.log("not equal");
-   finalCount.innerHTML = "";
+   
    finalCount.innerHTML = `There is not an equal amount of X's and O's.  X's: ${exes}, O's: ${ohs}`;
    //return `There is not an equal amount of X's and O's.
    //X's: ${exes}, O's: ${ohs}`;
@@ -71,6 +71,7 @@ function clearArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
       result.innerHTML = "";
   } 
+  finalCount.innerHTML = "";
 }
 
 //console.log(countXsandOs());
