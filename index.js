@@ -31,20 +31,20 @@ function countXsandOs() {
 let exes = 0;
 let ohs = 0;
 result.innerHTML = "";
-result1.innerHTML = "";
-result2.innerHTML = "";
+// result1.innerHTML = "";
+// result2.innerHTML = "";
 
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
    kissnHug = document.createElement("p");
    kissnHug.innerHTML = "X";
-   result1.append(kissnHug);
+   result.append(kissnHug);
    exes++; 
 } else {
    kissnHug = document.createElement("p");
    kissnHug.innerHTML = "O";
-   result2.append(kissnHug);
+   result.append(kissnHug);
    ohs++; 
 }
 });
@@ -66,8 +66,8 @@ function clearArray(array) {
  
   for (let i = array.length - 1; i > 0; i--) {
       result.innerHTML = "";
-      result1.innerHTML = "";
-      result2.innerHTML = "";
+      // result1.innerHTML = "";
+      // result2.innerHTML = "";
   } 
   finalCount.innerHTML = "";
 }
