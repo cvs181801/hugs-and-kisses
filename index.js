@@ -8,7 +8,10 @@ const clearButton = document.getElementById("clearBtn");
 
 //create a way to randomly generate a set of 6 x's and o's.
 
+let array1 = [];
+
 function randomXandO() {
+   array1 = [];
    if (Math.random() > .5 ) {
       // kissnHug.innerHTML = "X";
       // result.append(kissnHug);
