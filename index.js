@@ -2,7 +2,7 @@
 
 const generateButton = document.getElementById("generateBtn");
 const result = document.getElementById("resultDiv");
-const kissnHug = document.createElement("p");
+let kissnHug = document.createElement("p");
 
 //create a way to randomly generate a set of 6 x's and o's.
 
@@ -30,12 +30,14 @@ let ohs = 0;
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
+   kissnHug = document.createElement("p");
    kissnHug.innerHTML = "X";
-   result.appendChild(kissnHug);
+   result.append(kissnHug);
    exes++; 
 } else {
+   kissnHug = document.createElement("p");
    kissnHug.innerHTML = "O";
-   result.appendChild(kissnHug);
+   result.append(kissnHug);
    ohs++; 
 }
 });
