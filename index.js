@@ -25,7 +25,7 @@ function randomXandO() {
 
 function countXsandOs() {
    array1.push(randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO());
-   // console.log(array1);
+   console.log(array1);
    clearButton.classList.toggle("hidden");
    generateButton.classList.toggle("hidden");
 let exes = 0;
@@ -50,17 +50,13 @@ if (currentValue === "X") {
 // console.log(exes);
 // console.log(ohs);
 if (exes === ohs) {
-   //console.log("equal!");
    
    finalCount.innerHTML = `There is an equal amount of Hugs and Kisses!`;
-   //return `There is an equal amount of X's and O's!`
+
 } else {
-   //console.log("not equal");
    
    finalCount.innerHTML = `There is not an equal amount of Hugs and Kisses.  X's: ${exes}, O's: ${ohs}`;
-   //return `There is not an equal amount of X's and O's.
-   //X's: ${exes}, O's: ${ohs}`;
-}
+   
 }
 
 //create a way to clear the previous values.
