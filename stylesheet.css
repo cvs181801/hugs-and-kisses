@@ -7,6 +7,7 @@
 body {
     background-color: bisque;
     color: var(--dark-green);
+    margin: 0 auto;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
 #resultDiv {
     border: 2px solid red;
     display: grid;
+    grid-gap: .25em;
     font-family: inherit;
 }
 
@@ -24,7 +26,6 @@ h1 {
     border: 2px solid red;
     font-family: inherit;
     font-size: 2rem;
-    text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
 
@@ -40,13 +41,17 @@ p {
     height: 2em;
 }
 
-#generateBtn,
-#clearBtn {
+#generateBtn {
     background-color: rgb(179, 47, 47);
     font-family: inherit;
-    font-size: .7rem;
     color: ivory;
-    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+#clearBtn {
+    background-color: ivory;
+    font-family: inherit;
+    color: rgb(179, 47, 47);
     letter-spacing: 0.2rem;
 }
 
