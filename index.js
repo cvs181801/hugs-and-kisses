@@ -2,6 +2,8 @@
 
 const generateButton = document.getElementById("generateBtn");
 const result = document.getElementById("resultDiv");
+const result1 = document.getElementById("resultDiv1");
+const result2 = document.getElementById("resultDiv2");
 let kissnHug = document.createElement("p");
 const finalCount = document.getElementById("countDiv");
 const clearButton = document.getElementById("clearBtn");
@@ -13,46 +15,35 @@ let array1 = [];
 function randomXandO() {
    
    if (Math.random() > .5 ) {
-      // kissnHug.innerHTML = "X";
-      // result.append(kissnHug);
       return "X";
    } else {
-      // kissnHug.innerHTML = "O";
-      // result.append(kissnHug);
       return "O";
    }
-   
 }
-
-// function push() {
-//    array1.push(randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO());
-//    console.log(array1);
-// }
-
-// array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
-// console.log(array1);
 
 //create a way to count up and compare the x's and o's in the set.  Is there an equal amount of each, or not?
 
 function countXsandOs() {
    array1.push(randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO());
-   console.log(array1);
+   // console.log(array1);
    clearButton.classList.toggle("hidden");
    generateButton.classList.toggle("hidden");
 let exes = 0;
 let ohs = 0;
 result.innerHTML = "";
+result1.innerHTML = "";
+result2.innerHTML = "";
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
    kissnHug = document.createElement("p");
    kissnHug.innerHTML = "X";
-   result.append(kissnHug);
+   result1.append(kissnHug);
    exes++; 
 } else {
    kissnHug = document.createElement("p");
    kissnHug.innerHTML = "O";
-   result.append(kissnHug);
+   result2.append(kissnHug);
    ohs++; 
 }
 });
@@ -81,6 +72,8 @@ function clearArray(array) {
  
   for (let i = array.length - 1; i > 0; i--) {
       result.innerHTML = "";
+      result1.innerHTML = "";
+      result2.innerHTML = "";
   } 
   finalCount.innerHTML = "";
 }
