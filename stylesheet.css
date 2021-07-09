@@ -41,8 +41,10 @@ p {
 #clearBtn {
     background-color: rgb(179, 47, 47);
     font-family: inherit;
-    font-size: 1.7rem;
+    font-size: .7rem;
     color: ivory;
+    text-transform: uppercase;
+    letter-spacing: .7;
 }
 
 .hidden {
