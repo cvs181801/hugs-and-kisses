@@ -50,8 +50,7 @@ if (exes === ohs) {
    //return `There is an equal amount of X's and O's!`
 } else {
    //console.log("not equal");
-   finalCount.innerHTML = `There is not an equal amount of X's and O's.`  
-   `X's: ${exes}, O's: ${ohs}`;
+   finalCount.innerHTML = `There is not an equal amount of X's and O's.  X's: ${exes}, O's: ${ohs}`;
    //return `There is not an equal amount of X's and O's.
    //X's: ${exes}, O's: ${ohs}`;
 }
