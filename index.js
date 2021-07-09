@@ -4,6 +4,7 @@ const generateButton = document.getElementById("generateBtn");
 const result = document.getElementById("resultDiv");
 let kissnHug = document.createElement("p");
 const finalCount = document.getElementById("countDiv");
+const clearButton = document.getElementById("clearBtn");
 
 //create a way to randomly generate a set of 6 x's and o's.
 
@@ -26,6 +27,8 @@ console.log(array1);
 //create a way to count up and compare the x's and o's in the set.  Is there an equal amount of each, or not?
 
 function countXsandOs() {
+   clearButton.classList.toggle("hidden");
+   generateButton.classList.toggle("hidden");
 let exes = 0;
 let ohs = 0;
 result.innerHTML = "";
@@ -57,6 +60,17 @@ if (exes === ohs) {
    //return `There is not an equal amount of X's and O's.
    //X's: ${exes}, O's: ${ohs}`;
 }
+}
+
+//create a way to clear the previous values.
+
+function clearArray(array) {
+   clearButton.classList.toggle("hidden");
+   generateButton.classList.toggle("hidden");
+ 
+  for (let i = array.length - 1; i > 0; i--) {
+      result.innerHTML = "";
+  } 
 }
 
 //console.log(countXsandOs());
