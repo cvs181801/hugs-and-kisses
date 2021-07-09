@@ -1,5 +1,21 @@
+:root {
+    --ff-primary: 'Crimson Text', serif;
+    --ff-accent: 'Allura', cursive;
+}
+
+body {
+    background-color: bisque;
+    color: darkslategrey;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: var(--ff-accent);
+}
+
 #resultDiv {
     border: 2px solid red;
+    display: grid;
 }
 
 p {
