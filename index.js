@@ -10,11 +10,11 @@ function randomXandO() {
    if (Math.random() > .5 ) {
       kissnHug.innerHTML = "X";
       result.append(kissnHug);
-      //return "X";
+      return "X";
    } else {
       kissnHug.innerHTML = "O";
       result.append(kissnHug);
-      //return "O";
+      return "O";
    }
 }
 
