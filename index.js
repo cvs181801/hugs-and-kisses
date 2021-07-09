@@ -63,7 +63,7 @@ if (exes === ohs) {
 generateButton.addEventListener('click', function(e) {
    e.preventDefault();
    console.log("it worked!");
-   return randomXandO();
+   return randomXandO(), countXsandOs();
 })
 
 
