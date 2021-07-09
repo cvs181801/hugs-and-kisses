@@ -61,12 +61,12 @@ if (currentValue === "X") {
 if (exes === ohs) {
    //console.log("equal!");
    
-   finalCount.innerHTML = `There is an equal amount of X's and O's!`;
+   finalCount.innerHTML = `There is an equal amount of Hugs and Kisses!`;
    //return `There is an equal amount of X's and O's!`
 } else {
    //console.log("not equal");
    
-   finalCount.innerHTML = `There is not an equal amount of X's and O's.  X's: ${exes}, O's: ${ohs}`;
+   finalCount.innerHTML = `There is not an equal amount of Hugs and Kisses.  X's: ${exes}, O's: ${ohs}`;
    //return `There is not an equal amount of X's and O's.
    //X's: ${exes}, O's: ${ohs}`;
 }

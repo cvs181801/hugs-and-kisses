@@ -1,11 +1,12 @@
 :root {
     --ff-primary: 'Crimson Text', serif;
     --ff-accent: 'Allura', cursive;
+    --dark-green: rgb(41, 48, 30);
 }
 
 body {
     background-color: bisque;
-    color: darkslategrey;
+    color: var(--dark-green);
 }
 
 h1 {
@@ -20,6 +21,8 @@ h1 {
 
 p {
     border: 2px solid red;
+    font-family: var(--ff-accent);
+    font-size: 3rem;
 }
 
 #button-container {
