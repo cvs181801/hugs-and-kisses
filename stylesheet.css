@@ -5,3 +5,13 @@
 p {
     border: 2px solid red;
 }
+
+#button-container {
+    border: 2px solid red;
+    width: 2em;
+    height: 2em;
+}
+
+#generateBtn {
+    color: red;
+}
