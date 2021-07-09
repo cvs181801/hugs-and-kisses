@@ -28,6 +28,7 @@ console.log(array1);
 function countXsandOs() {
 let exes = 0;
 let ohs = 0;
+result.innerHTML = "";
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
@@ -46,10 +47,12 @@ if (currentValue === "X") {
 // console.log(ohs);
 if (exes === ohs) {
    //console.log("equal!");
+   finalCount.innerHTML = "";
    finalCount.innerHTML = `There is an equal amount of X's and O's!`;
    //return `There is an equal amount of X's and O's!`
 } else {
    //console.log("not equal");
+   finalCount.innerHTML = "";
    finalCount.innerHTML = `There is not an equal amount of X's and O's.  X's: ${exes}, O's: ${ohs}`;
    //return `There is not an equal amount of X's and O's.
    //X's: ${exes}, O's: ${ohs}`;
