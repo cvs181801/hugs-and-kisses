@@ -24,13 +24,19 @@ function randomXandO() {
    
 }
 
-array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
+// function push() {
+//    array1.push(randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO());
+//    console.log(array1);
+// }
 
-console.log(array1);
+// array1 = [randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO()];
+// console.log(array1);
 
 //create a way to count up and compare the x's and o's in the set.  Is there an equal amount of each, or not?
 
 function countXsandOs() {
+   array1.push(randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO(),randomXandO());
+   console.log(array1);
    clearButton.classList.toggle("hidden");
    generateButton.classList.toggle("hidden");
 let exes = 0;
