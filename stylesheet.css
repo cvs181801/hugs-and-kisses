@@ -17,6 +17,7 @@ h1 {
 #resultDiv {
     border: 2px solid red;
     display: grid;
+    font-family: inherit;
 }
 
 p {
@@ -31,8 +32,12 @@ p {
     height: 2em;
 }
 
-#generateBtn {
-    color: red;
+#generateBtn,
+#clearBtn {
+    background-color: rgb(179, 47, 47);
+    font-family: inherit;
+    font-size: 1.7rem;
+    color: ivory;
 }
 
 .hidden {
