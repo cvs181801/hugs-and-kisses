@@ -60,6 +60,9 @@ h1 {
     color: ivory;
     letter-spacing: 0.2rem;
     font-size: 1.5rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 
 #clearBtn {
@@ -68,6 +71,9 @@ h1 {
     color: var(--dark-red);
     letter-spacing: 0.2rem;
     font-size: 1.5rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .hidden {
