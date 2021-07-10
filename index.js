@@ -4,7 +4,7 @@ const generateButton = document.getElementById("generateBtn");
 const result = document.getElementById("resultDiv");
 const result1 = document.getElementById("resultDiv1");
 const result2 = document.getElementById("resultDiv2");
-let kissnHug = document.createElement("span");
+let kissnHug = document.createElement("div");
 const finalCount = document.getElementById("countDiv");
 const clearButton = document.getElementById("clearBtn");
 
@@ -37,12 +37,12 @@ result.innerHTML = "";
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
-   kissnHug = document.createElement("span");
+   kissnHug = document.createElement("div");
    kissnHug.innerHTML = "X";
    result.append(kissnHug);
    exes++; 
 } else {
-   kissnHug = document.createElement("span");
+   kissnHug = document.createElement("div");
    kissnHug.innerHTML = "O";
    result.append(kissnHug);
    ohs++; 
