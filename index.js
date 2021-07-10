@@ -4,7 +4,7 @@ const generateButton = document.getElementById("generateBtn");
 const result = document.getElementById("resultDiv");
 const result1 = document.getElementById("resultDiv1");
 const result2 = document.getElementById("resultDiv2");
-let kissnHug = document.createElement("p");
+let kissnHug = document.createElement("span");
 const finalCount = document.getElementById("countDiv");
 const clearButton = document.getElementById("clearBtn");
 
