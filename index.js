@@ -31,8 +31,6 @@ function countXsandOs() {
 let exes = 0;
 let ohs = 0;
 result.innerHTML = "";
-// result1.innerHTML = "";
-// result2.innerHTML = "";
 
 
 array1.forEach((currentValue) => {
@@ -48,12 +46,10 @@ if (currentValue === "X") {
    ohs++; 
 }
 });
-// console.log(exes);
-// console.log(ohs);
 if (exes === ohs) {
    finalCount.innerHTML = `Yes, there is an equal amount of Hugs and Kisses! ❤️`;
 } else {
-   finalCount.innerHTML = `No, there is not an equal amount of Hugs and Kisses.  Kisses: ${exes}, Hugs: ${ohs}`; 
+   finalCount.innerHTML = `No, there is not an equal amount of Hugs and Kisses.  💋's: ${exes}, 🤗's: ${ohs}`; 
    }
 }
 
@@ -66,25 +62,19 @@ function clearArray(array) {
  
   for (let i = array.length - 1; i > 0; i--) {
       result.innerHTML = "";
-      // result1.innerHTML = "";
-      // result2.innerHTML = "";
   } 
   finalCount.innerHTML = "";
 }
-
-//console.log(countXsandOs());
 
 //make it so when the user clicks the button, a set of 6 X's and O's are automatically generated, rendered to the page, and counted.
 
 generateButton.addEventListener('click', function(e) {
    e.preventDefault();
-   console.log("generate btn worked!");
    return randomXandO(), countXsandOs();
 })
 
 clearButton.addEventListener('click', function(e) {
    e.preventDefault();
-   console.log("clear btn worked!");
    return clearArray(array1);
 })
 
