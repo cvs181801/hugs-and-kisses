@@ -2,6 +2,7 @@
     --ff-primary: 'Crimson Text', serif;
     --ff-accent: 'Allura', cursive;
     --dark-green: rgb(41, 48, 30);
+    --dark-red: rgb(179, 47, 47);
 }
 
 body {
@@ -37,11 +38,12 @@ h1 {
     width: 70%;
 }
 
-div {
+#resultDiv div {
     font-family: var(--ff-accent);
-    font-size: 3rem;
+    font-size: 4rem;
     width: 20%;
     height: 20%;
+    color: var(--dark-red);
 }
 
 #button-container {
@@ -53,7 +55,7 @@ div {
 }
 
 #generateBtn {
-    background-color: rgb(179, 47, 47);
+    background-color: 
     font-family: inherit;
     color: ivory;
     letter-spacing: 0.2rem;
