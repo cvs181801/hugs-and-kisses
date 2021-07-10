@@ -40,7 +40,7 @@ h1 {
     width: 70%;
 }
 
-#resultDiv div {
+#resultDiv > * {
     font-family: var(--ff-accent);
     font-size: 3rem;
     color: var(--dark-red);
