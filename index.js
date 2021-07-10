@@ -51,9 +51,9 @@ if (currentValue === "X") {
 // console.log(exes);
 // console.log(ohs);
 if (exes === ohs) {
-   finalCount.innerHTML = `Yes, there is an equal amount of Hugs and Kisses!`;
+   finalCount.innerHTML = `Yes, there is an equal amount of Hugs and Kisses! ❤️`;
 } else {
-   finalCount.innerHTML = `No, there is not an equal amount of Hugs and Kisses.  X's: ${exes}, O's: ${ohs}`; 
+   finalCount.innerHTML = `No, there is not an equal amount of Hugs and Kisses.  Kisses: ${exes}, Hugs: ${ohs}`; 
    }
 }
 
