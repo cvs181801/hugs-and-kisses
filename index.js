@@ -37,12 +37,12 @@ result.innerHTML = "";
 
 array1.forEach((currentValue) => {
 if (currentValue === "X") {
-   kissnHug = document.createElement("p");
+   kissnHug = document.createElement("span");
    kissnHug.innerHTML = "X";
    result.append(kissnHug);
    exes++; 
 } else {
-   kissnHug = document.createElement("p");
+   kissnHug = document.createElement("span");
    kissnHug.innerHTML = "O";
    result.append(kissnHug);
    ohs++; 
@@ -51,9 +51,9 @@ if (currentValue === "X") {
 // console.log(exes);
 // console.log(ohs);
 if (exes === ohs) {
-   finalCount.innerHTML = `There is an equal amount of Hugs and Kisses!`;
+   finalCount.innerHTML = `Yes, there is an equal amount of Hugs and Kisses!`;
 } else {
-   finalCount.innerHTML = `There is not an equal amount of Hugs and Kisses.  X's: ${exes}, O's: ${ohs}`; 
+   finalCount.innerHTML = `No, there is not an equal amount of Hugs and Kisses.  X's: ${exes}, O's: ${ohs}`; 
    }
 }
 
