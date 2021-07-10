@@ -28,6 +28,7 @@ h1 {
     margin: 1.5em;
     text-align: center;
     align-content: center;
+    width: 50vh;
 }
 
 #countDiv {
@@ -41,8 +42,6 @@ h1 {
 #resultDiv div {
     font-family: var(--ff-accent);
     font-size: 3rem;
-    width: 5%;
-    height: 5%;
     color: var(--dark-red);
 }
 
