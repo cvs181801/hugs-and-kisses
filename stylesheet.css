@@ -20,7 +20,6 @@ h1 {
 }
 
 #resultDiv {
-    border: 2px solid red;
     display: grid;
     grid-gap: .25em;
     grid-template-columns: .5fr .5fr .5fr;
@@ -48,8 +47,8 @@ h1 {
 }
 
 #button-container {
-    width: 2em;
-    height: 2em;
+    /*width: 2em;
+    height: 2em;*/
     margin: 0 auto;
     text-align: center;
     align-content: center;
