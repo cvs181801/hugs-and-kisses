@@ -19,7 +19,6 @@ h1 {
 }
 
 #resultDiv {
-    border: 2px solid red;
     display: grid;
     grid-gap: .25em;
     grid-template-columns: 2fr 2fr 2fr;
@@ -29,7 +28,6 @@ h1 {
 }
 
 #countDiv {
-    border: 2px solid magenta;
     font-family: inherit;
     font-size: 2rem;
     letter-spacing: 0.2rem;
@@ -37,7 +35,6 @@ h1 {
 }
 
 div {
-    border: 2px solid green;
     font-family: var(--ff-accent);
     font-size: 3rem;
     width: 20%;
