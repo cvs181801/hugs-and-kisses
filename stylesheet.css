@@ -65,7 +65,7 @@ h1 {
 #clearBtn {
     background-color: ivory;
     font-family: inherit;
-    color: rgb(179, 47, 47);
+    color: var(--dark-red);
     letter-spacing: 0.2rem;
     font-size: 1.5rem;
 }
