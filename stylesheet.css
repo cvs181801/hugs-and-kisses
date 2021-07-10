@@ -40,7 +40,7 @@ h1 {
 
 #resultDiv div {
     font-family: var(--ff-accent);
-    font-size: 4rem;
+    font-size: 3rem;
     width: 20%;
     height: 20%;
     color: var(--dark-red);
@@ -55,7 +55,7 @@ h1 {
 }
 
 #generateBtn {
-    background-color: 
+    background-color: var(--dark-red);
     font-family: inherit;
     color: ivory;
     letter-spacing: 0.2rem;
@@ -76,6 +76,6 @@ h1 {
 
 @media (max-width: 700px) {
     #resultDiv {
-        grid-gap: 1em;   
+        grid-gap: .5em;   
     }
 }
