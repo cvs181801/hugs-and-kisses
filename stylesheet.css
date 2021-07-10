@@ -24,7 +24,7 @@ h1 {
     display: grid;
     grid-gap: .25em;
     grid-template-columns: .5fr .5fr .5fr;
-    grid-template-rows: 4em;
+    grid-template-rows: 5em;
     font-family: inherit;
     /*width: 50vh;*/
     margin: 1.5em;
@@ -86,5 +86,9 @@ h1 {
         grid-gap: .5em;   
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-rows: auto;
+    }
+    #resultDiv > * {
+        font-size: 3rem;
+        font-weight: 700;
     }
 }
