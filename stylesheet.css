@@ -26,6 +26,7 @@ h1 {
     font-family: inherit;
     margin: 0 auto 1.5em auto;
     text-align: center;
+    align-content: center;
 }
 
 #countDiv {
