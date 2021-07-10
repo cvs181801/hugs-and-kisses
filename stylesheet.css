@@ -25,6 +25,7 @@ h1 {
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: auto 0 auto 0;
     font-family: inherit;
+    margin: 0 auto 1.5em auto;
 }
 
 #countDiv {
@@ -46,6 +47,9 @@ div {
     border: 2px solid red;
     width: 2em;
     height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
 }
 
 #generateBtn {
