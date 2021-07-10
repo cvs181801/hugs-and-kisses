@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     text-align: center;
     align-content: center;
+    display: flex;
 }
 
 h1 {
@@ -29,7 +30,6 @@ h1 {
     margin: 1.5em;
     text-align: center;
     align-content: center;
-    justify-content: center;
 }
 
 #countDiv {
