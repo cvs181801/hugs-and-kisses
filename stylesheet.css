@@ -22,7 +22,8 @@ h1 {
     border: 2px solid red;
     display: grid;
     grid-gap: .25em;
-    grid-template-columns: (3, 1fr);
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 10em 50vh auto 10em;
     font-family: inherit;
 }
 
